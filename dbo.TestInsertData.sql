@@ -1,4 +1,5 @@
-﻿ALTER PROCEDURE [dbo].[TestInsertData]
+
+ALTER PROCEDURE [dbo].[TestInsertData]
 AS
 BEGIN
     SET NOCOUNT ON;
@@ -10,4 +11,3 @@ BEGIN
     FROM dbo.TestTable
     ORDER BY CreatedDate DESC;
 END;
- 
