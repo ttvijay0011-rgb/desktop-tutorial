@@ -1,7 +1,8 @@
-﻿CREATE PROCEDURE [dbo].[TestConnection]
+﻿ALTER PROCEDURE [dbo].[TestConnection]
 AS
 BEGIN
     SET NOCOUNT ON;
+--selected
     SELECT 'Database Connection Successful' AS TestMessage,
            GETDATE() AS CurrentServerTime;
 END;
