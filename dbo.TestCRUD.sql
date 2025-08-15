@@ -2,7 +2,7 @@ CREATE OR ALTER PROCEDURE [dbo].[TestCRUD]
 AS
 BEGIN
 
-     -- test
+     -- Removed
     SET NOCOUNT ON;
 
     PRINT '--- CREATE ---';
