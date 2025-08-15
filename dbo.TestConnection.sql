@@ -2,7 +2,7 @@ ALTER PROCEDURE [dbo].[TestConnection]
 AS
 BEGIN
 
-    -- bye ok
+
     
     SET NOCOUNT ON;
     SELECT 'Database Connection Successful' AS TestMessage,
