@@ -1,9 +1,9 @@
-﻿ALTER PROCEDURE [dbo].[TestSearchData]
+ALTER PROCEDURE [dbo].[TestSearchData]
     @Name NVARCHAR(50)
 AS
 BEGIN
     SET NOCOUNT ON;
----finally success
+---testttt
     SELECT *
     FROM dbo.TestTable
     WHERE Name = @Name;
