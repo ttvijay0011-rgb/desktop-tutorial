@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].[TestInsertData]
+﻿ALTER PROCEDURE [dbo].[TestInsertData]
 AS
 BEGIN
     SET NOCOUNT ON;
@@ -10,9 +10,4 @@ BEGIN
     FROM dbo.TestTable
     ORDER BY CreatedDate DESC;
 END;
-GO
-/****** Object:  StoredProcedure [dbo].[TestSearchData]    Script Date: 15-08-2025 12:06:09 ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
+ 
