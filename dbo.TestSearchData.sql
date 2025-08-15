@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].[TestSearchData]
+﻿ALTER PROCEDURE [dbo].[TestSearchData]
     @Name NVARCHAR(50)
 AS
 BEGIN
