@@ -1,4 +1,4 @@
-﻿CREATE PROCEDURE [dbo].[TestCRUD]
+﻿ALTER PROCEDURE [dbo].[TestCRUD]
 AS
 BEGIN
      ----Select 'Test'
