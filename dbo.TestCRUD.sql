@@ -1,6 +1,7 @@
 ﻿CREATE PROCEDURE [dbo].[TestCRUD]
 AS
 BEGIN
+     ----Select 'Test'
     SET NOCOUNT ON;
 
     PRINT '--- CREATE ---';
@@ -18,6 +19,7 @@ BEGIN
     PRINT '--- DELETE ---';
     DELETE FROM dbo.TestTable
     WHERE Name LIKE 'CRUD_User%';
+
 END;
 GO
 /****** Object:  StoredProcedure [dbo].[TestInsertData]    Script Date: 15-08-2025 12:06:09 ******/
