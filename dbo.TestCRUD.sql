@@ -2,7 +2,7 @@ CREATE OR ALTER PROCEDURE [dbo].[TestCRUD]
 AS
 BEGIN
 
-   select 'mulitline'
+   select 'mulitline123'
     SET NOCOUNT ON;
 
     PRINT '--- CREATE ---';
