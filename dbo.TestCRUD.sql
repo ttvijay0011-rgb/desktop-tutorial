@@ -4,6 +4,9 @@ BEGIN
 
     SET NOCOUNT ON;
 
+
+    select 'vijay'
+
     PRINT '--- CREATE ---';
     INSERT INTO dbo.TestTable (Name, CreatedDate)
     VALUES ('CRUD_User', GETDATE());
