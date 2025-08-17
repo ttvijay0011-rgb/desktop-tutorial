@@ -1,5 +1,5 @@
 
-ALTER PROCEDURE [dbo].[TestInsertData]
+create or ALTER PROCEDURE [dbo].[TestInsertData]
 AS
 BEGIN
     SET NOCOUNT ON;

@@ -1,4 +1,4 @@
-ALTER PROCEDURE [dbo].[TestConnection]
+create PROCEDURE [dbo].[TestConnection]
 AS
 BEGIN
  
