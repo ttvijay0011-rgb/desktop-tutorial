@@ -3,7 +3,7 @@ AS
 BEGIN
 
   
-   select 'Vijay added  '
+   select 'Vijay added   '
     SET NOCOUNT ON;
     SELECT 'Database Connection Successful' AS TestMessage,
            GETDATE() AS CurrentServerTime;
